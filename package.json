@@ -1,0 +1,19 @@
+{
+  "name": "slideshowx",
+  "version": "1.0.0",
+  "description": "SlideShowX How to",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "X-Team",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.24.5",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  },
+  "dependencies": {
+    "aos": "^2.3.2"
+  }
+}
