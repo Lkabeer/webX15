@@ -18,8 +18,8 @@ body {
   background-size: cover;
   background-position: center;
   display: flex;
-  flex-direction: column;
-  justify-content: center; }
+  justify-content: space-between;
+  align-items: center; }
   #slideShowX a {
     color: #fff;
     font-size: 2em;
@@ -35,8 +35,6 @@ body {
       padding-left: 10px;
       padding-right: 20px; }
   #slideShowX .next {
-    margin-top: -1.3em;
-    align-self: flex-end;
     padding-right: 30px; }
     #slideShowX .next:hover {
       padding-right: 10px;

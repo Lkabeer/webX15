@@ -15,7 +15,6 @@ body {
   }
   
   #slideShowX {
-
     width: 80%;
     height: 500px;
 
@@ -24,8 +23,8 @@ body {
     background-position: center;
 
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
 
     a {
         color: #fff;
@@ -50,9 +49,6 @@ body {
     }
 
     .next {
-        margin-top: -1.3em;
-        align-self: flex-end;
-
         padding-right: 30px;
 
         &:hover {
